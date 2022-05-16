@@ -39,3 +39,31 @@ p {
 .right {
     float: right;
 }
+
+.lg {
+    height: 10px;
+}
+
+.lg,
+.mg {
+    border: 0;
+    background-color: black;
+}
+
+.sm-text {
+    font-size: 0.85rem;
+}
+
+.calories-info h1 {
+    margin: -5px -2px;
+}
+
+.calories-info span {
+    font-size: 1.2em;
+    overflow: hidden;
+    margin-top: -7px;
+}
+
+.md {
+    height: 5px;
+}
