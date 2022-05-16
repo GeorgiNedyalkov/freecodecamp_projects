@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .label {
@@ -15,10 +15,6 @@ body {
     width: 270px;
     margin: 20px auto;
     padding: 0 7px;
-}
-
-.bold {
-    font-weight: 800;
 }
 
 header h1 {
@@ -37,6 +33,10 @@ p {
     clear: right;
 }
 
+.bold {
+    font-weight: 800;
+}
+
 .right {
     float: right;
 }
@@ -46,9 +46,13 @@ p {
 }
 
 .lg,
-.mg {
-    border: 0;
+.md {
     background-color: black;
+    border: 0;
+}
+
+.md {
+    height: 5px;
 }
 
 .sm-text {
@@ -61,12 +65,7 @@ p {
 
 .calories-info span {
     font-size: 1.2em;
-    overflow: hidden;
     margin-top: -7px;
-}
-
-.md {
-    height: 5px;
 }
 
 .indent {
