@@ -8,3 +8,9 @@ body {
     background-color: #1b1b32;
     color: #f5f6f7;
 }
+
+label {
+    /* label elements are inline by default we need to make them on separate lines*/
+    display: block;
+    margin: 0.5rem 0;
+}
